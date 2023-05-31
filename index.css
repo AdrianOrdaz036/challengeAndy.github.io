@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+
+.areatexto {
+    position: relative;
+    top: 12%;
+    left: 20%
+}
+
+.areatexto p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+textarea {
+    height: 65vh;
+    width:60%;
+    color: #0A3871;
+    font-size: 36px;
+    font-family: "inter";
+    outline: none;
+    border-radius: 14px;
+    background-color: transparent;
+    border: none;
+}
+
+textarea::placeholder {
+    font-size: 36px;
+    font-family: "inter";
+    color: #0A3871;
+}
+
+.botones {
+    display: flex;
+    gap: 24px;
+    margin: 25px;
+}
+
+.encriptar {
+    width: 30vh;
+    height: 6vh;
+    font-size: 16px;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    border-color: none;
+}
+
+.desencriptar {
+    width: 30vh;
+    height: 6vh;
+    font-size: 16px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.seccion2 {
+    height: 100vh;
+}
+
+.rectangulo {
+    height: 90vh;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    right: 10%;
+    border-radius: 24px;
+    box-shadow: 0px 24px 32px -8px;
+}
+
+.inp {
+    position: absolute;
+    height: 80vh;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 24px;
+    left: 22px;
+    top: 22px;
+    font-size: 25px;
+    text-align: center;
+    color:#0A3871;
+    font-family: "inter";
+}
+
+.copiar1 {
+    visibility: hidden;
+}
+
+#copiar {
+    position: absolute;
+    top: 83vh;
+    left: 32%;
+    height: 5vh;
+    width: 150px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border-color: none;
+}
+
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.textos {
+    font-family: "inter";
+}
+
+.texto1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #495057;
+    margin-top: 16px;
+}
+
+.texto2 {
+    font-size: 16px;
+    font-weight: 400;
+    color:  #495057;
+    margin-top: 16px;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);    text-align: center;
+    font-family: "inter";
+    font-size: 12px;
+    font-weight: 400;
+    color: #0A3871;
+}
